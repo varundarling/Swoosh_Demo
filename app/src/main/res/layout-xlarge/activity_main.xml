@@ -70,18 +70,18 @@
         android:textAlignment="center"
         android:textColor="@android:color/white"
         android:textSize="48sp"
-        app:layout_constraintBottom_toTopOf="@+id/getStartedBtn"
+        app:layout_constraintBottom_toTopOf="@+id/nextLeagueBtn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
     <Button
-        android:id="@+id/getStartedBtn"
+        android:id="@+id/nextLeagueBtn"
         android:layout_width="920dp"
         android:layout_height="107dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginEnd="8dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
         android:layout_marginBottom="16dp"
         android:background="@drawable/swoosh_button"
         android:fontFamily="@font/montaga"
