@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LeagueActivity">
+    tools:context=".Controller.LeagueActivity">
 
     <ImageView
         android:id="@+id/backgroundImageLeague"
@@ -106,7 +106,7 @@
     </LinearLayout>
 
     <Button
-        android:id="@+id/nextLeagueBtn"
+        android:id="@+id/nextBtnLeague"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"

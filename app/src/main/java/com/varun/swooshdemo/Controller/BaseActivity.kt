@@ -1,12 +1,8 @@
-package com.varun.swooshdemo
+package com.varun.swooshdemo.Controller
 
 import android.os.Bundle
 import android.util.Log
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
-import kotlin.math.log
 
 open class BaseActivity : AppCompatActivity() {
 

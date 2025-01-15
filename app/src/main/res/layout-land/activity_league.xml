@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LeagueActivity">
+    tools:context=".Controller.LeagueActivity">
 
     <ImageView
         android:id="@+id/backgroundImageLeague"
@@ -61,6 +61,7 @@
             android:layout_height="match_parent"
             android:background="@drawable/swoosh_toggle"
             android:fontFamily="@font/montaga"
+            android:onClick="onMensClicked"
             android:text="Mens"
             android:textAllCaps="false"
             android:textColor="@color/White"
@@ -77,6 +78,7 @@
             android:layout_marginBottom="16dp"
             android:background="@drawable/swoosh_toggle"
             android:fontFamily="@font/montaga"
+            android:onClick="onWomenClicked"
             android:text="ToggleButton"
             android:textAllCaps="false"
             android:textColor="@color/White"
@@ -91,6 +93,7 @@
             android:layout_height="match_parent"
             android:background="@drawable/swoosh_toggle"
             android:fontFamily="@font/montaga"
+            android:onClick="onCoedClicked"
             android:text="ToggleButton"
             android:textAllCaps="false"
             android:textColor="@color/White"
@@ -101,7 +104,7 @@
     </LinearLayout>
 
     <Button
-        android:id="@+id/nextLeagueBtn"
+        android:id="@+id/nextBtnLeague"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -109,6 +112,7 @@
         android:layout_marginBottom="10dp"
         android:background="@drawable/swoosh_button"
         android:fontFamily="@font/montaga"
+        android:onClick="nextLeagueClicked"
         android:text="NEXT"
         android:textAlignment="center"
         android:textSize="40sp"

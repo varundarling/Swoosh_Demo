@@ -5,7 +5,8 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SkillActivity">
+    android:onClick="skillFinishBtn"
+    tools:context=".Controller.SkillActivity">
 
     <ImageView
         android:id="@+id/imageView"
@@ -61,6 +62,7 @@
             android:layout_marginEnd="18dp"
             android:background="@drawable/swoosh_toggle"
             android:fontFamily="@font/montaga"
+            android:onClick="onBeginnerClicked"
             android:paddingStart="10dp"
             android:paddingEnd="10dp"
             android:text="@string/beginner"
@@ -76,6 +78,7 @@
             android:layout_marginStart="16dp"
             android:background="@drawable/swoosh_toggle"
             android:fontFamily="@font/montaga"
+            android:onClick="onBallerClicked"
             android:paddingStart="10dp"
             android:paddingEnd="10dp"
             android:text="@string/baller"
@@ -86,7 +89,7 @@
     </LinearLayout>
 
     <Button
-        android:id="@+id/nextLeagueBtn"
+        android:id="@+id/nextBtnLeague"
         android:layout_width="920dp"
         android:layout_height="107dp"
         android:layout_marginStart="32dp"
@@ -94,6 +97,7 @@
         android:layout_marginBottom="16dp"
         android:background="@drawable/swoosh_button"
         android:fontFamily="@font/montaga"
+        android:onClick="skillFinishBtn"
         android:text="@string/finish"
         android:textSize="40sp"
         app:layout_constraintBottom_toBottomOf="parent"

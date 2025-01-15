@@ -1,4 +1,4 @@
-package com.varun.swooshdemo
+package com.varun.swooshdemo.Controller
 
 import android.content.Intent
 import android.os.Bundle
@@ -8,6 +8,8 @@ import android.widget.ToggleButton
 import androidx.activity.enableEdgeToEdge
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import com.varun.swooshdemo.Utilities.EXTRA_LEAGUE
+import com.varun.swooshdemo.R
 
 class LeagueActivity : BaseActivity() {
 

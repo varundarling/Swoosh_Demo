@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SkillActivity">
+    tools:context=".Controller.SkillActivity">
 
     <ImageView
         android:id="@+id/imageView"
@@ -60,6 +60,7 @@
             android:layout_height="match_parent"
             android:layout_marginEnd="18dp"
             android:background="@drawable/swoosh_toggle"
+            android:onClick="onBeginnerClicked"
             android:paddingStart="10dp"
             android:paddingEnd="10dp"
             android:text="@string/beginner"
@@ -74,6 +75,7 @@
             android:layout_height="match_parent"
             android:layout_marginStart="16dp"
             android:background="@drawable/swoosh_toggle"
+            android:onClick="onBallerClicked"
             android:paddingStart="10dp"
             android:paddingEnd="10dp"
             android:text="@string/baller"
@@ -91,6 +93,7 @@
         android:layout_marginEnd="50dp"
         android:layout_marginBottom="16dp"
         android:background="@drawable/swoosh_button"
+        android:onClick="skillFinishBtn"
         android:text="@string/finish"
         android:textColor="@color/White"
         android:textSize="20sp"

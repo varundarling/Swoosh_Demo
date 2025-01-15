@@ -1,4 +1,4 @@
-package com.varun.swooshdemo
+package com.varun.swooshdemo.Controller
 
 import android.content.Intent
 import android.os.Bundle
@@ -6,6 +6,7 @@ import android.widget.Button
 import androidx.activity.enableEdgeToEdge
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import com.varun.swooshdemo.R
 
 class MainActivity : BaseActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -18,10 +19,10 @@ class MainActivity : BaseActivity() {
             insets
         }
 
-        val getStartedBtn : Button = findViewById(R.id.nextLeagueBtn)
+        val getStartedBtn : Button = findViewById(R.id.nextBtnLeague)
 
         getStartedBtn.setOnClickListener {
-            val leagueIntent = Intent(this,LeagueActivity :: class.java)
+            val leagueIntent = Intent(this, LeagueActivity :: class.java)
             startActivity(leagueIntent)
         }
     }

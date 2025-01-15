@@ -13,16 +13,22 @@
         android:theme="@style/Theme.SwooshDemo"
         tools:targetApi="31">
         <activity
-            android:name=".SkillActivity"
+            android:name=".Controller.MainActivity2"
             android:exported="false" />
         <activity
-            android:name=".BaseActivity"
+            android:name=".Controller.FinishActivity"
             android:exported="false" />
         <activity
-            android:name=".LeagueActivity"
+            android:name=".Controller.SkillActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Controller.BaseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Controller.LeagueActivity"
             android:exported="true" />
         <activity
-            android:name=".MainActivity"
+            android:name=".Controller.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
