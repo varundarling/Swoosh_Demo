@@ -58,13 +58,14 @@
         app:layout_constraintTop_toBottomOf="@+id/textView4">
 
         <ToggleButton
-            android:id="@+id/toggleButton4"
+            android:id="@+id/mensLeagueBtn"
             android:layout_width="match_parent"
             android:layout_height="66dp"
             android:background="@drawable/swoosh_toggle"
             android:fontFamily="@font/montaga"
+            android:onClick="onMensClicked"
             android:text="@string/mens"
-            android:textAllCaps="false"
+            android:textAllCaps="true"
             android:textColor="@color/White"
             android:textOff="@string/mens"
             android:textOn="@string/mens"
@@ -72,15 +73,16 @@
             tools:text="Mens" />
 
         <ToggleButton
-            android:id="@+id/toggleButton6"
+            android:id="@+id/womensLeagueBtn"
             android:layout_width="match_parent"
             android:layout_height="66dp"
             android:layout_marginTop="16dp"
             android:layout_marginBottom="16dp"
             android:background="@drawable/swoosh_toggle"
             android:fontFamily="@font/montaga"
+            android:onClick="onWomenClicked"
             android:text="@string/womens"
-            android:textAllCaps="false"
+            android:textAllCaps="true"
             android:textColor="@color/White"
             android:textOff="@string/womens"
             android:textOn="@string/womens"
@@ -88,13 +90,14 @@
             tools:text="Womens" />
 
         <ToggleButton
-            android:id="@+id/toggleButton7"
+            android:id="@+id/coedLeagueBtn"
             android:layout_width="match_parent"
             android:layout_height="66dp"
             android:background="@drawable/swoosh_toggle"
             android:fontFamily="@font/montaga"
+            android:onClick="onCoedClicked"
             android:text="@string/co_ed"
-            android:textAllCaps="false"
+            android:textAllCaps="true"
             android:textColor="@color/White"
             android:textOff="@string/co_ed"
             android:textOn="@string/co_ed"
