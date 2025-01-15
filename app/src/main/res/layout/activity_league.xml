@@ -8,9 +8,10 @@
     tools:context=".LeagueActivity">
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/backgroundImageLeague"
         android:layout_width="0dp"
         android:layout_height="0dp"
+        android:contentDescription="@string/background_image"
         android:scaleType="centerCrop"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -21,13 +22,14 @@
         app:srcCompat="@drawable/desiredleaguebg" />
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/appLogoLeague"
         android:layout_width="125dp"
         android:layout_height="38dp"
         android:layout_marginTop="32dp"
+        android:contentDescription="@string/app_logo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView3"
+        app:layout_constraintTop_toTopOf="@+id/backgroundImageLeague"
         app:srcCompat="@drawable/swooshlogo" />
 
     <TextView
@@ -36,13 +38,13 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
         android:fontFamily="@font/montaga"
-        android:text="Desired League:"
+        android:text="@string/desired_league"
         android:textAlignment="center"
         android:textAllCaps="false"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+        app:layout_constraintTop_toBottomOf="@+id/appLogoLeague" />
 
     <LinearLayout
         android:layout_width="0dp"
@@ -61,11 +63,11 @@
             android:layout_height="66dp"
             android:background="@drawable/swoosh_toggle"
             android:fontFamily="@font/montaga"
-            android:text="Mens"
+            android:text="@string/mens"
             android:textAllCaps="false"
             android:textColor="@color/White"
-            android:textOff="Mens"
-            android:textOn="Mens"
+            android:textOff="@string/mens"
+            android:textOn="@string/mens"
             android:textSize="28sp"
             tools:text="Mens" />
 
@@ -77,11 +79,11 @@
             android:layout_marginBottom="16dp"
             android:background="@drawable/swoosh_toggle"
             android:fontFamily="@font/montaga"
-            android:text="ToggleButton"
+            android:text="@string/womens"
             android:textAllCaps="false"
             android:textColor="@color/White"
-            android:textOff="Womens"
-            android:textOn="Womens"
+            android:textOff="@string/womens"
+            android:textOn="@string/womens"
             android:textSize="28sp"
             tools:text="Womens" />
 
@@ -91,17 +93,17 @@
             android:layout_height="66dp"
             android:background="@drawable/swoosh_toggle"
             android:fontFamily="@font/montaga"
-            android:text="ToggleButton"
+            android:text="@string/co_ed"
             android:textAllCaps="false"
             android:textColor="@color/White"
-            android:textOff="Co - ed "
-            android:textOn="Co - ed"
+            android:textOff="@string/co_ed"
+            android:textOn="@string/co_ed"
             android:textSize="28sp"
             tools:text="Co - ed" />
     </LinearLayout>
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/nextBtn"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -109,7 +111,7 @@
         android:layout_marginBottom="16dp"
         android:background="@drawable/swoosh_button"
         android:fontFamily="@font/montaga"
-        android:text="NEXT"
+        android:text="@string/next"
         android:textSize="22sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

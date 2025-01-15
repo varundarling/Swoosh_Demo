@@ -8,7 +8,7 @@
     tools:context=".LeagueActivity">
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/backgroundImageLeague"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:scaleType="centerCrop"
@@ -21,13 +21,13 @@
         app:srcCompat="@drawable/desiredleaguebg" />
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/appLogoLeague"
         android:layout_width="125dp"
         android:layout_height="38dp"
         android:layout_marginTop="32dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView3"
+        app:layout_constraintTop_toTopOf="@+id/backgroundImageLeague"
         app:srcCompat="@drawable/swooshlogo" />
 
     <TextView
@@ -42,7 +42,7 @@
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+        app:layout_constraintTop_toBottomOf="@+id/appLogoLeague" />
 
     <LinearLayout
         android:layout_width="920dp"
@@ -101,7 +101,7 @@
     </LinearLayout>
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/getStartedBtn"
         android:layout_width="920dp"
         android:layout_height="107dp"
         android:layout_marginStart="8dp"
