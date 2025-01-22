@@ -48,6 +48,7 @@ class LeagueActivity : BaseActivity() {
         womensLeagueBtn.isChecked = false
         coedLeagueBtn.isChecked = false
 
+
         player.league = "mens"
     }
 
