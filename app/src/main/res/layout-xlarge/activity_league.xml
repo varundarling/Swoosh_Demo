@@ -113,6 +113,7 @@
         android:fontFamily="@font/montaga"
         android:onClick="nextLeagueClicked"
         android:text="@string/next"
+        android:textColor="@color/White"
         android:textSize="40sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

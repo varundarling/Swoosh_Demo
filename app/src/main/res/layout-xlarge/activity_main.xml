@@ -86,6 +86,7 @@
         android:background="@drawable/swoosh_button"
         android:fontFamily="@font/montaga"
         android:text="GET STARTED"
+        android:textColor="@color/White"
         android:textAlignment="center"
         android:textSize="40sp"
         android:textStyle="bold"

@@ -114,6 +114,7 @@
         android:fontFamily="@font/montaga"
         android:onClick="nextLeagueClicked"
         android:text="NEXT"
+        android:textColor="@color/White"
         android:textAlignment="center"
         android:textSize="40sp"
         android:textStyle="bold"

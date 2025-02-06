@@ -44,12 +44,14 @@ class SkillActivity : BaseActivity() {
 
     fun onBeginnerClicked(view: View){
         ballerBtn.isChecked = false
+        beginnerBtn.isChecked = true
 
         player.skill = "beginner"
     }
 
     fun onBallerClicked(view: View){
         beginnerBtn.isChecked = false
+        ballerBtn.isChecked = true
 
         player.skill = "baller"
     }
@@ -60,7 +62,7 @@ class SkillActivity : BaseActivity() {
             finishIntent.putExtra(EXTRA_PLAYER,player)
             startActivity(finishIntent)
         } else {
-            Toast.makeText(this,"Please select a skill level",Toast.LENGTH_LONG).show()
+            Toast.makeText(this,"Please select a skill level",Toast.LENGTH_SHORT).show()
         }
 
     }
